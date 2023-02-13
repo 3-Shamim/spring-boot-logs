@@ -1,0 +1,12 @@
+#management:
+#  endpoint:
+#    health:
+#      group:
+#        custom:
+#          include: '*'
+#          show-components: always
+#          show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: self,health,info,metrics
